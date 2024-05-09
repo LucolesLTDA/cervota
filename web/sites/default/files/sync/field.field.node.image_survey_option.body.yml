@@ -1,0 +1,24 @@
+uuid: f466133a-a094-4f21-bd1a-b3de8267e127
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.image_survey_option
+  module:
+    - text
+id: node.image_survey_option.body
+field_name: body
+entity_type: node
+bundle: image_survey_option
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+  allowed_formats: {  }
+field_type: text_with_summary

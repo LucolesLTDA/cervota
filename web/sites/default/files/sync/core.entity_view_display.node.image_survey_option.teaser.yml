@@ -1,0 +1,39 @@
+uuid: 81c9d754-8904-4981-9b5a-7b639e041353
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.image_survey_option.body
+    - field.field.node.image_survey_option.field_image
+    - node.type.image_survey_option
+  module:
+    - image
+    - text
+    - user
+id: node.image_survey_option.teaser
+targetEntityType: node
+bundle: image_survey_option
+mode: teaser
+content:
+  body:
+    type: text_summary_or_trimmed
+    label: hidden
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    weight: 1
+    region: content
+  field_image:
+    type: image
+    label: hidden
+    settings:
+      image_link: ''
+      image_style: ''
+      image_loading:
+        attribute: lazy
+    third_party_settings: {  }
+    weight: 0
+    region: content
+hidden:
+  links: true

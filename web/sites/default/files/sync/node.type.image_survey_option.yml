@@ -1,0 +1,17 @@
+uuid: fd070fea-4f50-48ed-b379-b934261fcb97
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Image survey option'
+type: image_survey_option
+description: 'Use <em>Image survey options</em> for selectable images with titles and descriptions on surveys. '
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false
